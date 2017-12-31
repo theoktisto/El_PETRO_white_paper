@@ -1,0 +1,77 @@
+\documentclass[spanish,letterpaper,11pt]{article}
+%\usepackage{tweaklist}
+\usepackage{url}
+\usepackage{xspace}
+\usepackage{graphicx}
+\usepackage{multicol}
+\usepackage{subfig}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage[width=170mm,top=18mm,bottom=22mm,includeheadfoot]{geometry}
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage{verbatim}
+\usepackage{caption}
+\usepackage{natbib}
+\usepackage{float}
+\usepackage[utf8]{inputenc}
+\usepackage[english,main=spanish]{babel}
+\usepackage[T1]{fontenc}
+\usepackage{pdflscape}
+\usepackage{mathtools}
+\usepackage[usenames,dvipsnames]{xcolor}
+\usepackage{afterpage}
+\usepackage[toc,page]{appendix}
+\definecolor{lightyellow}{rgb}{1,0.98,0.9}
+
+\DeclarePairedDelimiter{\ceil}{\lceil}{\rceil}
+\newcommand*\eg{e.g.\@\xspace}
+\newcommand*\Eg{e.g.\@\xspace}
+\newcommand*\ie{i.e.\@\xspace}
+%\renewcommand{\itemhook}{\setlength{\topsep}{0pt}  \setlength{\itemsep}{0pt}\setlength{\leftmargin}{15pt}}
+
+\title{\bf El  PETRO: Un criptoactivo seguro respaldado por el Estado venezolano con barriles de petróleo de las reservas}
+\author{
+     Dr. Unk N. Own (Life University)\\
+}
+\date{}
+\begin{document}
+\selectlanguage{spanish}
+
+%\pagecolor{lightyellow}
+\maketitle
+
+\begin{abstract}
+Propuesta para la estabilización de la economía venezolana en un plazo estimado de seis meses a un año, por la vía de la creación del criptoactivo llamado “PETRO” y su poder para desplazar al dólar paralelo, siempre que su mercado primario sea en bolívares.
+\end{abstract}
+
+\setlength{\columnsep}{20pt}
+%\begin{multicols}{1}
+
+\tableofcontents
+
+% ******************************** Main Matter *********************************
+
+\input{Sec_Intro}
+\input{Sec_Prop}
+\input{Sec_Riesgo}
+\input{Sec_Fact}
+\input{Sec_Conclu}
+
+% *********************** Adding TOC and List of Figures ***********************
+
+\bibliography{Biblio}
+\bibliographystyle{plainnat}
+
+%\end{multicols}
+\renewcommand{\appendixname}{Anexos}
+\begin{appendices} % Using appendices environment for more functunality
+
+\input{Sec_Anexo_A}
+\input{Sec_Anexo_B}
+
+%\include{Appendix2/appendix2}
+
+\end{appendices}
+
+\end{document}
