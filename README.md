@@ -7,7 +7,4 @@ Diciembre 2017
 
 # Resumen
 
-Propuesta para la estabilización de la economía venezolana en un plazo estimado de seis meses
-a un año, por la vía de la creación del criptoactivo llamado “P_E_T_R_O” y su poder para desplazar
-al dólar paralelo, siempre que su mercado primario sea en bolívares.
-
+Propuesta para la estabilización de la economía venezolana en un plazo estimado de seis meses a un año, por la vía de la creación del criptoactivo llamado “PETRO” con respaldo en las reservas de petróleo, y con poder para anular al dólar paralelo, y revaluar la moneda de curso legal siempre que su mercado primario sea en Bolívares.
