@@ -1,7 +1,7 @@
 # El PETRO:
 ## Un criptoactivo seguro respaldado por el Estado venezolano con barriles de petróleo de las reservas.
 
-_Diciembre 2017_
+  _Diciembre 2017_
 
 
 #Resumen
